@@ -1,0 +1,217 @@
+.tableContainer
+{
+    padding: 15px;
+    margin-top: 30px;
+    background: #fcc5b6;
+    border-radius: 5px;
+    border: 1px solid #ff9999;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px rgba(255, 77, 77, 0.6);
+}
+
+.tableContainer .servSearchInp input{
+    font-family: 'Titillium Web'; 
+    font-size: 14px;
+    border-color: rgba(173, 51, 255, 0.8);
+}
+.tableContainer .servSearchInp input:focus{
+    border-color: rgba(153, 0, 255, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px rgba(204, 128, 255, 0.6);
+}
+
+.tableContainer #basic-addon1{
+    background-color: #9900ff;
+    border-color: rgba(173, 51, 255, 0.8);
+    padding:0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tableContainer #basic-addon1 i{
+    color:#ffffff;
+}
+.service_table
+{
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+.service_table th
+{
+    font-family: 'Titillium Web'; 
+    font-size: 14px;
+    text-align: center;
+    color:#f9dbd7;
+    background-color: #DF515C !important;
+}
+.service_Activated > td
+{
+    color:#008060;
+    background-color: #ccffcc;
+    border-bottom:solid #f2f2f2 1px;
+}
+.service_deactivated > td
+{
+    color:#cc0e00;
+    background-color: #ffa099;
+    border: 1px solid #f2f2f2;
+}
+.activeRow{color: blue;}
+.unActiveRow{color: red;}
+
+.service_title_div{
+  font-family: 'Segoe UI Light', sans-serif,Helvetica;
+  margin-bottom: 20px;
+  font-size: 20px;
+  float: left;
+}
+.well{
+  margin-top: -25px;
+  margin-bottom: -20px;
+  font-weight: bold;
+  text-align: center;
+  background: #8b5c7e;
+  color:white;
+  text-shadow: 2px 2px #4d004d;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.specific_service_view
+{
+    margin: 50px auto  0 auto;
+    padding: 30px;
+    background: #fcc5b6;
+    border-radius: 5px;
+    border: 1px solid #ff9999;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px rgba(255, 77, 77, 0.6);
+}
+
+.service_des_div , .service_tag_div, .service_price_div,
+ .service_view_div, .service_date_div, .service_Images_div ,.service_deliver_div ,.service_Type_div{
+  margin-bottom: 5px;
+  background-color: lavenderblush;
+}
+.des_panal, .price_panal, .view_panal, .tag_panal , .Service_date_panal , .Service_date_panal
+ .Service_date_panal ,.deliver_date_panal, .Image_panal, .Type_date_panal{
+  width: 100%;
+  margin: 2px auto;  
+  background-color:white !important;
+}
+.service_info service_Type_div 
+{
+  background-color:red;
+}
+.service_owner_div , .service_tag_div , .service_view_div ,.service_price_div
+{
+    float: left;    
+    background: #A03BE8;
+}
+.INFORMATION .panel-default h5
+{
+    color: #621F87;
+    font-size: 15px;
+}
+.INFORMATION .panel-default .infotype {
+    font-family: 'Trebuchet MS';
+    color: black;
+}
+.ServTeg,.ServOwner
+{
+   text-decoration: none;
+   color:#8b5c7e;
+   font-family: 'Exo';
+}
+.ServTeg:hover,.ServOwner:hover
+{
+   text-decoration: none;
+   color:#ff665a;
+}
+.panel-heading
+{
+    background-color:lavenderblush !important;
+}
+.service_owner_div
+{
+    margin-left: 1%;
+    width: 29%;
+    float: right;
+    margin-top: -93px;
+    
+}
+.panel .panel_content
+{
+        background-color: lavenderblush;
+}
+.service_tag_div , .service_view_div , .service_price_div
+{
+    width: 69%;
+    margin-right: 1%;
+    float: left;
+    background-color: white;
+}
+.service_des_div {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ff9999;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.075) inset, 0 0 6px rgba(223, 101, 83, 0.8);
+}
+
+.INFORMATION_Style{
+  font-size: 30px;
+  color:#660066;
+}
+.INFORMATION
+{
+   background-color: white;
+}
+div.panel.panel-default.service_des_div{
+  float:left;
+}
+
+ .INFORMATION{
+    font-family: 'Segoe UI Light', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    box-shadow: 1px 1px 12px #000000;
+    border-radius: 5px;
+    border: 1px solid #ff9999;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.075) inset, 0 0 6px rgba(223, 101, 83, 0.8);
+    background-color: white;
+    font-family: 'Chrobot';
+    font-size: 15px;
+ }
+
+
+.description_content{
+  margin-top: 10px;
+  font-family: 'Chrobot';
+  font-size: 20px;
+  color:#333333;
+  background-color: lavenderblush;
+}
+
+.panel.panel_content{
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.serStatus :focus,
+.serStatus :hover
+{
+    outline: 0 none;
+    border-color: rgba(247, 90, 102, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px rgba(246, 60, 76, 0.6);
+}
+
+.servBtn,.saveButton
+{
+    background-color: #ffffff !important;
+}
+
+.servBtn:hover,.saveButton:hover,
+.servBtn:focus,.saveButton:focus
+{
+    background-color: rgb(0,0,255); opacity: 0.9;
+    border-color: white;
+    color: black;    
+}

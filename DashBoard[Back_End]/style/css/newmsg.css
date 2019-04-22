@@ -1,0 +1,85 @@
+#Newmsg .card-body .form-group
+{
+  margin-bottom: 10px;
+}
+#Newmsg .card-body .form-group textarea
+{
+  height: 200px;
+}
+
+#Newmsg .card-body .form-group label
+{
+  font-size: 15px;
+  font-family: "Titillium Web";
+  color: #4e413b;
+}
+#Newmsg .card-body
+{
+  background: rgba(255, 204, 204,0.2);
+}
+
+.submitmsg{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.submitmsg{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+  transition: background-color ease-in-out 0.3s,box-shadow ease-in-out 0.5s;
+}
+
+.submitmsg:focus, .submitmsg:hover {
+    text-decoration: none;
+    color: #f5cee9;
+    background-color: #6b034d
+    }
+.fa{
+    margin:6px;
+}
+
+.sep
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.sep .divider
+{
+  background-color: #f1d9d4;
+  height: 1px;
+  width: 98%;
+  margin: auto;
+}
+
+#Newmsg .form-control
+{
+  border-radius: 0px;
+}
+#Newmsg .form-control:focus {
+    color: #393939;
+    background-color: #fff;
+    border-color: #ffcad9;
+    border-top-color: #faa68e;
+    border-right-color: #faa68e;
+    border-bottom-color: #faa68e;
+    border-left-color: #faa68e;
+    outline: 0;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 4px #d8c1e1;
+}
+#Newmsg .card-footer
+{
+    background: #6b034d; 
+    background: -webkit-linear-gradient(left, #6b034d , #793e68); 
+    background: -o-linear-gradient(right, #6b034d, #793e68); 
+    background: -moz-linear-gradient(right, #6b034d, #793e68); 
+    background: linear-gradient(to right, #6b034d , #793e68);
+}

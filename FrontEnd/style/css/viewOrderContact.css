@@ -1,0 +1,102 @@
+.oc_page
+{
+  padding: 20px;
+}
+.oc_page .oc_hint
+{
+  display:block;
+  color:#595959;
+}
+.oc_page .noc_btn
+{
+  float: right;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 15px;
+  font-family: 'Century Gothic';
+  text-shadow: 1.5px 1.5px #cc5200;
+  box-shadow: 1.5px 1.5px #cc5200;
+  font-size: 17px;
+}
+.oc_page .noc_btn:hover,
+.oc_page .noc_btn:focus,
+.oc_page .noc_btn:focus:active
+{
+  background-color: #ff751a;
+  outline: none;
+}
+.oc_title
+{
+  display: inline;
+  float: left;
+  padding-bottom: 15px;
+}
+.oc_title h3
+{
+  color: #1a0500;
+  font-size: 45px;
+  display: inline;
+  text-align: left;
+  font-family: 'Candara';
+  text-shadow: 1.5px 1.5px #b3b3b3;
+}
+.oc_title i
+{
+  color: #1a0500;
+  font-size: 45px;
+  text-align: left;
+  display: inline;
+  text-shadow: 1.5px 1.5px #ff6600;
+  padding-right: 8px;
+}
+.oc_page .oc_tbl tr
+{
+  text-align: left;
+}
+.oc_page .oc_tbl td
+{
+  padding: 18px;
+}
+.oc_page .oc_tbl td h5
+{
+  display: inline;
+  color: #ff9933;
+  font-size: 17px;
+  font-family: 'Dubai Light';
+}
+.oc_page .oc_tbl td
+{
+  font-family: 'Dubai Light';
+  color: #4d4d4d;
+  font-size: 16px;
+}
+.oc_page .oc_tbl img
+{
+  width: 55px;
+  height: 55px;
+  /*display: block;*/
+  border-radius: 50%;
+  margin: 10px;
+}
+.oc_page .oc_fileBtn
+{
+  border-radius: 2.3px;
+  box-shadow: 1.5px 1.5px #ff8080;
+  color: #262626;
+  font-size: 16px;
+  font-family: 'Dubai Light';
+}
+.oc_page .oc_fileBtn:hover
+{
+  box-shadow: 1.5px 1.5px #ff4d4d;
+  color: #000000;
+}
+.oc_page .oc_fileBtn i
+{
+  margin-right: 5px;
+}
+.oc_page .oc_fileBtn a,
+.oc_page .oc_fileBtn a:hover
+{
+  text-decoration: none;
+}

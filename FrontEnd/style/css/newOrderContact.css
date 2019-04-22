@@ -1,0 +1,81 @@
+.noc_page
+{
+  padding: 20px;
+}
+.noc_box
+{
+  background-color: #f2f2f2;
+  border-radius: 3px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+}
+.noc_box_header
+{
+  background-color: #404040;
+  border-radius: 3px 3px 0px 0px;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  border-bottom: 2px solid #ff6600;
+  color: #fff;
+  padding-top: 5px;
+  font-family: 'Exo Medium';
+  font-size: 23px;
+  text-shadow: 2px 2px #000000;
+}
+.noc_box .noc_box_body
+{
+  padding: 15px;
+  margin: 20px;
+}
+.noc_box_body .form-control:focus,
+.noc_box_body .form-control:focus:active,
+.noc_box_body .form-control:hover
+{
+  border: 1px solid #dbdbdb;
+  outline: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+}
+.noc_box_body .noc_btn
+{
+  float: right;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 15px;
+  font-family: 'Century Gothic';
+  text-shadow: 1.5px 1.5px #cc5200;
+  box-shadow: 1.5px 1.5px #cc5200;
+  font-size: 17px;
+}
+.noc_box_body .noc_btn:hover,
+.noc_box_body .noc_btn:focus,
+.noc_box_body .noc_btn:focus:active
+{
+  background-color: #ff751a;
+  outline: none;
+}
+.noc_box_body span
+{
+  font-family: 'Exo Medium';
+  float: left;
+  font-size: 15px;
+  margin-top: 17px;
+}
+.noc_box_body span input
+{
+  display: inline;
+  margin-right: 8px;
+}
+.noc_box_body input
+{
+  display: block;
+  margin-top: 10px;
+}
+.noc_box_body input:focus,
+.noc_box_body input:focus:active,
+.noc_box_body input:active
+{
+  outline: none;
+}

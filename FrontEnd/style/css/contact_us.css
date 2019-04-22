@@ -1,0 +1,140 @@
+  /*******Contact Us Style ******/
+  .contactusFirstDiv
+  {
+      background-color: #f7f7f7;
+  }
+.contactContainer
+{
+    margin: 60px 0px;
+    background-color: #f9f9f9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contactContainer .contactItem
+{
+    padding:30px 20px;
+    height: 160px;
+    background-color: rgba(221, 221, 221, 0.37);
+    text-align: center;
+    margin:0px 0px 10px 0px;
+    cursor: pointer;    
+    transition: all 1.5s ease-in-out;
+    color: #F25C27;
+    box-shadow: 1px 1px 1px #f25c276e , -1px -1px 1px #f25c276e;
+}
+.contactItem span
+{
+    font-size: 30px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.contactContainer .contactItem:hover
+{
+    background-color: #fffefe;
+    color: #F25C27;
+    transform: scale(1.1,1.1) rotate(360deg);
+    border: 2px solid darkgray;
+    border-radius: 5%;
+    text-shadow: 1px 1px 1px #757171;
+}
+
+.contactContainer .contactItem:hover span
+{
+    color: #fff;
+    text-shadow:1px 1px 1px #000;
+}
+
+.faqs .panel-heading
+{
+    background-color: #fff;
+}
+.faqs h3 , .contactUs .header
+{
+    color: #f25c278f;
+    font-family: 'Amaranth', sans-serif;
+
+}
+
+.byphone , .bymail
+{
+    padding: 10px;
+    background-color: rgba(238, 238, 238, 0.28);
+    box-shadow:1px 1px 12px #f49f8247;
+    margin: 10px;
+}
+.byphone h4 , .bymail h4
+{
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+    text-shadow:2px 2px 1px #fff , -2px -2px 1px #fff;
+}
+.byphone h4 span , .bymail h4 span
+{
+    margin-left: 20px;
+}
+.byphone ul li
+{
+    margin:10px 10px 15px 10px;
+}
+.byphone .phoneitem
+{
+    font-weight: bolder;
+}
+.byphone ul ul li:nth-child(odd)
+{
+    background-color: #f0f6f8;
+    list-style-type: square;
+    color: #9d1f1f;
+    font-weight: bolder;
+}
+
+.byphone ul ul li:nth-child(even)
+{
+    list-style-type: square;
+    background-color: #f0f6f8;
+    font-weight: bolder;
+
+}
+.bymail .form-group
+{
+    margin: 30px 0px 0px;
+    padding: 10px;
+}
+.bymail .form-group input , .bymail .form-group textArea
+{
+    margin: 10px 0px;
+}
+.bymail .form-group textarea
+{
+    height: 110px;
+}
+.contactmsgerror
+{
+     width: 80%;
+    margin: 10px auto;
+    background-color: #ffeded;
+    padding: 6px;
+    color: #650101;
+    font-weight: bold;
+}
+
+.customizecontactError , .customizecontactsucess
+{    
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+}
+.contactmsgsuccess
+{    
+    width: 80%;
+    margin: 10px auto;
+    background-color: #f4ffe3;
+    padding: 6px;
+    color: #000000;
+    font-weight: bold;
+}

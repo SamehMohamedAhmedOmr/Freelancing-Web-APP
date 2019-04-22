@@ -1,0 +1,176 @@
+.ord_page
+{
+  margin-top: 20px;
+}
+.ord_page .ord_title
+{
+  font-family: 'Pasajero';
+  font-size: 35px;
+  color: #262626;
+  text-shadow: 2px 2px #8c8c8c;
+  text-align: left;
+}
+.ord_page hr
+{
+  border: 2px solid #ff6600;
+  border-bottom: 1px solid #ff944d;
+}
+.ord_page .ord_tbl
+{
+  border-color: #ff8533;
+}
+.ord_page .ord_tbl th
+{
+  border-color: #ff8533;
+  color: #404040;
+  font-family: 'Century Gothic';
+  font-size: 16px;
+  text-align: center;
+}
+.ord_page .ord_tbl td
+{
+  border-color: #b3b3b3;
+  color: #4d4d4d;
+  font-family: 'Saira SemiCondensed';
+  font-size: 16px;
+}
+.ord_page .ord_tbl .ord_comp
+{
+  text-align: left;
+  padding-left: 30px;
+}
+.ord_page .ord_tbl i
+{
+  margin-right: 3px;
+}
+.ord_page .ord_tbl .fa-check-circle
+{
+  color: #009933;
+}
+.ord_page .ord_tbl .fa-times-circle
+{
+  color: #e60000;
+}
+.ord_page .ord_tbl .ord_est,
+.ord_page .ord_tbl .ord_est i
+{
+  color: #3333cc;
+}
+.ord_page .ord_tbl .ord_est .btn
+{
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  outline: none;
+}
+.ord_page .ord_tbl .ord_est .btn:focus,
+.ord_page .ord_tbl .ord_est .btn:focus:active
+{
+  outline: none;
+  border: none;
+}
+#ord_MakeEstimate .modal-header,
+#ord_estimate .modal-header
+{
+  text-align: left;
+  border-bottom: 2px solid #ff6666;
+}
+#ord_MakeEstimate .modal-header h3,
+#ord_estimate .modal-header h3
+{
+  font-family: 'Century Gothic';
+  text-shadow: 1px 1px #e6e6e6;
+  font-size: 25px;
+  color:#333333;
+}
+#ord_estimate .modal-body,
+#ord_MakeEstimate .modal-body
+{
+  text-align: left;
+  padding-left: 30px;
+  border-bottom: 2px solid #ffaa80;
+}
+#ord_estimate .modal-body span,
+#ord_MakeEstimate .modal-body span
+{
+  font-family: 'Arial';
+  font-size: 15px;
+  color: #666699;
+  display: inline;
+  padding-left: 20px;
+}
+#ord_estimate .ord_estDate div,
+#ord_estimate .ord_estComment div,
+#ord_estimate .ord_estRate div,
+#ord_MakeEstimate .ord_estRate_ div
+{
+  font-family: 'Arial';
+  font-size: 15px;
+  color: #808080;
+  padding:15px;
+  display: inline;
+}
+#ord_estimate .ord_estDate
+{
+  float: right;
+}
+#ord_estimate .ord_estRate .colored
+{
+  color: orange;
+}
+#ord_MakeEstimate .ord_estRate_ a,
+#ord_MakeEstimate .ord_estRate_ a:hover,
+#ord_MakeEstimate .ord_estRate_ a:hover:active,
+#ord_MakeEstimate .ord_estRate_ a:visited
+{
+  text-decoration:none;
+}
+a:hover, a:focus
+{
+  text-decoration:none !important;
+}
+#ord_MakeEstimate .ord_estRate_
+{
+  display: inline;
+}
+#ord_MakeEstimate .ord_estRate_ a
+{
+  font-size: 25px !important;
+}
+#ord_MakeEstimate .ord_estComment .form-control:focus
+{
+  border: 1px solid #dbdbdb;
+  outline: none;
+}
+#ord_MakeEstimate .modal-footer .btn:focus,
+#ord_MakeEstimate .modal-footer .btn:focus:active
+{
+  outline: none !important;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+}
+.ord_tdBtn
+{
+  background-color: #ff7836;
+  color: #ffffff;
+  border-radius: 2px;
+  margin: auto;
+  width: 90px;
+  height: 30px;
+  padding-top: 5px;
+  margin-top: 10px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+.ord_tdBtn i
+{
+  margin-left: 5px;
+}
+.ord_ordBtn:hover,
+.ord_ordBtn:hover:focus,
+.ord_ordBtn:focus
+{
+  background-color: #ff5050;
+  color:white;
+  outline:none;
+}

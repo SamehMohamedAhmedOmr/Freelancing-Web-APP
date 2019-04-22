@@ -1,0 +1,72 @@
+.mngAdmin .formBox{ 
+    height: 400px;  
+}
+.mngAdmin .formBox .boxBody{
+    height: 350px; 
+    padding: 0px
+}
+.mngAdmin .formBox .boxBody .form-horizontal{
+    height: inherit;
+}
+.mngAdmin .formBox .rightSec{
+    float:right;
+    height: 100%; 
+    padding-top: 50px;
+}
+.mngAdmin .formBox .leftSec{
+    float:left;
+    height: 100%;
+    background-color: #e2b1a3;
+    padding-top: 20px;
+    position:relative;
+}
+.mngAdmin .formBox .form-group {
+    margin-bottom: 0px;
+    
+}
+.mngAdmin .formBox .form-group label {
+    margin-bottom: -5px;
+    float:left;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 'Titillium Web';
+    font-size: 15px;
+    color:#333333;
+    text-shadow: 0.5px 0.5px 0.5px  #ffffff;
+}
+.mngAdmin .formBox .boxBody .form-control
+{
+    border-color:#ffb3b3;
+}
+.mngAdmin .formBox .boxBody .form-control:focus,
+.mngAdmin .formBox .boxBody .form-control.active{
+  border-color: rgba(255, 179, 179, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px rgba(255, 128, 128, 0.6);
+  outline: 0 none;
+}
+.mngSupr .formBox .boxBody #save, .change{
+   background-color: #7C413C;
+   border: 1.5px solid #6E413C;
+   box-shadow: 2px 2px 5px #AB5A53;
+}
+.mngAdmin .boxHeader
+{
+    margin-top: 60px;
+}
+.change{
+   background-color: #7C413C;
+   border: 1.5px solid #6E413C;
+   box-shadow: 2px 2px 5px #AB5A53;
+}
+.change:hover{
+     webkit-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
+    color:#f9d0cc;
+} 
+
+#autoload
+{
+    background-color: #f7cbbe;
+    border: 3px solid #7c413c;
+}

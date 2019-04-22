@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 13, 2017, 5:45:40 AM
+    Author     : HP
+*/
+
+.formBox{
+    margin-top: 20px; 
+    height: 560px;  
+}
+
+.boxBody form-horizontal{
+    margin-top: 10px;
+}
+
+.boxHeader{
+    border-radius: 5px 5px 0px 0px;
+    background-color: #fff3ef;
+    border: 1px solid #fae7e1;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boxBody{
+    background-color: #f7cbbe;
+    border: 1px solid #fae7e1;
+    margin-top: -5px;
+    padding: 30px;
+    padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0px 0px 5px 5px;
+}
+.boxHeader .title{
+    font-family: 'Impact';
+    color: #c73f3b;
+    text-shadow: 2px 2px 4px #cccccc;
+    font-size: 25px;
+}
+.boxBody .inpGrp{
+    margin-bottom: 10px;
+    border-color:#ffb3b3;
+}
+.boxBody .inpGrp .input-group-addon{
+    background-color: #660066;
+    color: #ffe6ff;
+    margin: auto;
+    font-size: 17px;
+    border-radius: 4px 0px 0px 4px;
+    border-color:#660033;
+}
+.boxBody .inpGrp .form-control
+{
+    border-color:#ffb3b3;
+}
+.boxBody .inpGrp .form-control:focus,
+.boxBody .inpGrp .form-control.active{
+  border-color: rgba(255, 179, 179, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px rgba(255, 128, 128, 0.6);
+  outline: 0 none;
+}
+
+boxBody .formGrp{
+    margin-bottom: 10px;
+}
+boxBody .formLbl{
+    font-family: 'Candara';
+    font-size: 15px;
+    color: #151515;
+    text-shadow: 0.5px 0.5px 2px #d5d5d5;
+    outline: 0 none;
+    border-color: #ffe6e6;
+}
+.boxBody .formGrp .form-control{
+    border-color:#ffb3b3;
+}
+.boxBody .formGrp .form-control:focus,
+.boxBody .formGrp .form-control.active{
+  border-color: rgba(255, 179, 179, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px rgba(255, 204, 204, 0.6);
+  outline: 0 none;
+}
+
+
+.boxFooter .addBtn{
+    margin-top: 10px;
+    background-color: #d9534f;
+    color:  #ffe6e6;
+    font-family: 'Trebuchet MS';
+    padding: 8px;
+    border-color: #fffae6;
+    width: 30%;
+}
+.boxFooter .addBtn:focus,
+.boxFooter .addBtn.active
+.boxFooter .addBtn:hover{
+    background-color: #f38f78;
+    outline: 0 none; 
+    color:  #ffe6e6;
+}

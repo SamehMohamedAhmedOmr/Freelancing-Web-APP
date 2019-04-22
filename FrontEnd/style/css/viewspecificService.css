@@ -1,0 +1,163 @@
+
+.serviceContainer
+{
+    font-family: 'Amaranth', sans-serif;  
+    padding: 50px;
+    background-color: #dddddd36;
+    margin-bottom: 50px;
+}
+.serviceContainer .serviceName
+{
+    
+    margin: 10px 0px 20px 5px;
+}
+.serviceContainer .serviceDesc
+{
+    margin: 40px auto 10px;
+}
+.serviceContainer .serviceDesc p
+{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0.5px 0.5px 0.5px #989494 , -0.5px -0.5px 0.5px #989494;
+}
+.serviceContainer .tags ul li
+{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 7px;
+}
+.serviceImage
+{
+    height: 400px !important;
+    width: 100%;
+}
+
+/*Second div*/
+.serviceEstimate
+{
+    font-family: 'Amaranth', sans-serif;  
+    padding: 20px 15px;
+    background-color: #dddddd36;
+}
+.serviceEstimate .starsEstimate .stars
+{
+    padding-left: 0;
+}
+.serviceEstimate .starsEstimate .stars li 
+{
+    font-size: 35px;
+    display: inline-block;
+    color: #fff;
+    text-shadow:.5px .5px 1px #000 , -.5px -.5px 1px #000;
+    margin: 5px;
+}
+.serviceEstimate .starsEstimate .stars li .color_star
+{color: #ffa07e; }
+
+.serviceEstimate .serviceduration p , .serviceEstimate .ordersStatus p
+{
+    margin: 45px auto;
+    text-align: left;
+}
+
+/*third div*/
+.serviceOwner
+{
+    font-family: 'Amaranth', sans-serif;  
+    padding: 20px 15px;
+    background-color: #dddddd36;
+    margin-top: 25px;
+}
+.serviceOwner .ownerPhoto img
+{
+    height: 70px;
+    width: 70px;
+    margin: 20px auto;
+    display: inherit;
+}
+.serviceOwner .ownerSummary
+{
+    margin: 15px auto;
+    background-color: #fff;
+    border-radius: 9px;
+    padding: 6px;
+}
+
+/*users_Estimates*/
+.user_Estimates
+{
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Amaranth', sans-serif;  
+
+}
+.user_Estimates .userInfo 
+{
+    padding: 30px;
+}
+.userEstimate .userInfo img
+{
+    height: 100px;
+    width: 100%;
+}
+.userEstimate .commit
+{
+     padding: 30px;
+}
+.userEstimate p
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;    
+    margin: auto;
+    position: relative;
+}
+.userEstimate p:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    position: absolute;
+    top: 20px;
+    left: -24px;
+}
+.estimate_date
+{
+    position: absolute;
+    bottom: 19%;
+    right: 30px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 3px;
+    background-color: #ddd;
+    font-size: 12px;
+}
+.userEstimate .userStars
+{
+    color: #ddd;
+    margin: 2px;
+}
+
+.contact
+{ 
+    text-align: center;
+}
+.contact h2
+{
+    font-family: 'Amaranth', sans-serif;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    position: relative;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #cc5200;
+}

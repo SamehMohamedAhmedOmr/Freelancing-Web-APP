@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 13, 2017, 4:19:45 PM
+    Author     : HP
+*/
+.mngSupr .formBox{
+    margin-top: 20px; 
+    height: 560px;  
+}
+
+.mngSupr .formBox .boxBody{
+    height: 450px; 
+    padding: 0px
+}
+.mngSupr .formBox .boxBody .form-horizontal{
+    height: inherit;
+}
+.mngSupr .formBox .rightSec{
+    float:right;
+    height: 100%; 
+    padding-top: 25px;
+}
+.mngSupr .formBox .leftSec{
+    float:left;
+    height: 100%;
+    background-color: #e2b1a3;
+    padding-top: 20px;
+    position:relative;
+}
+.empImg{
+    width:100px; height:100px;
+}
+.mngSupr .formBox .form-group {
+    margin-bottom: 0px;
+}
+.mngSupr .formBox .form-group label {
+    margin-bottom: -5px;
+    float:left;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 'Titillium Web';
+    font-size: 15px;
+    color:#333333;
+    text-shadow: 0.5px 0.5px 0.5px  #ffffff;
+}
+.mngSupr .formBox .boxBody .form-control
+{
+    border-color:#ffb3b3;
+}
+.mngSupr .formBox .boxBody .form-control:focus,
+.mngSupr .formBox .boxBody .form-control.active{
+  border-color: rgba(255, 179, 179, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px rgba(255, 128, 128, 0.6);
+  outline: 0 none;
+}
+
+.leftSec .btnSec{
+    padding-top: 80px;
+}
+
+.formBtn{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    margin-bottom:20px;
+    background-color: #DD736C;
+    border: 1.5px solid #D16D66;
+    box-shadow: 2px 2px 5px #D17B73;
+    border-radius: 0px;
+}
+.formBtn,
+.formBtn:focus,
+.formBtn.active{
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+.formBtn:hover {
+     webkit-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
+    color:#6E413C;
+} 
+.mngSupr .formBox .boxBody #save{
+   background-color: #7C413C;
+   border: 1.5px solid #6E413C;
+   box-shadow: 2px 2px 5px #AB5A53;
+}
+.boxBody #save:hover {
+     webkit-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
+    color:#f9d0cc;
+} 
+.colored-tooltip + .tooltip > .tooltip-inner {background-color: #452421;}
+.colored-tooltip + .tooltip > .tooltip-arrow { border-right-color:#452421;}

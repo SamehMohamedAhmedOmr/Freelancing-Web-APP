@@ -1,0 +1,164 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 14, 2017, 5:21:39 PM
+    Author     : HP
+*/
+
+.headSec{
+    padding-top: 60px;
+}
+.headContainer{
+    background-color: #f5b9a8;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.10);
+}
+.addNewBtn{
+  background: #600947;
+  border-color: #710e55;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 17px;
+  font-family: 'Segoe UI Light', sans-serif;
+  color: #f3f1f3;
+  border-radius: 2px;
+  border: 0.5px solid #857281;
+  outline:0px !important;
+  -webkit-appearance:none;
+}
+
+.addNewBtn:hover{
+    background: #710e55;
+    border-color:#7f1e63;
+}
+.addNewBtn:focus,
+.addNewBtn.active{
+    outline:0px !important;
+    -webkit-appearance:none;
+    background: #8A7786; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top,#7f1e63, #a52781); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #7f1e63, #a52781); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,#7f1e63, #a52781); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #7f1e63, #a52781); /* Standard syntax */
+    webkit-transition: background .3s ease;
+    -o-transition: background .3s ease;
+    transition: background .3s ease;
+    color:white;
+    border: 0.5px solid #857281;
+    border-color:#8A7786;
+}
+.searchSuprInp{
+    margin-bottom: 10px;
+    border-color: rgba(179, 161, 152, 0.8);
+    font-family: 'Titillium Web';
+    font-size: 16.5px;
+}
+
+.searchSuprInp .form-control{
+    border: 0;
+    padding-bottom: 8px;
+}
+.searchSuprInp .btn{
+    border-color: white;
+    padding-bottom: 8px;
+}
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group{
+      padding-bottom: 6px;
+}
+.table-curved {
+    border-collapse: separate;
+}
+.table-curved {
+    border: solid #ccc 0px;
+    border-radius: 6px;
+    border-left:0px;
+}
+.table-curved td, .table-curved th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.table-curved th {
+    border-top: none;
+}
+.table-curved th:first-child {
+    border-radius: 6px 0 0 0;
+    border-left: 0px solid #ccc;
+}
+.table-curved th:last-child {
+    border-radius: 0px 6px 0px 0px;
+}
+.table-curved tr:last-child td:first-child {
+    border-radius: 0px 0px 0px 6px;
+}
+.table-curved tr:last-child td:last-child {
+    border-radius: 0px 0px 6px 0px;
+}
+.table-curved th:only-child{
+    border-radius: 0px 0px 0px 0px;
+}
+.tablePanl{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tablePanl .SupervisorTblRaw{
+    color:#f9dbd7;
+    font-family: 'Calibri Light';
+    font-size: 15px;
+    text-align: center;
+    background-color:#DF515C !important;
+}
+.tablePanl tbody tr{
+    text-align: center;
+}
+
+.tablePanl tbody .ID-th{
+    background-color:#e17b83 !important;
+    color: #fae8ea;
+}
+.tablePanl ul
+{
+    padding-left: 0px;
+    text-align: -webkit-center;
+}
+.tablePanl ul li{
+    padding-top: 5px;
+    padding-left: 1px;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #faa68e;
+    border-radius: 50%;
+    font-size: 17px;
+    position: relative;
+    z-index: 1;
+}
+.tablePanl ul li:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: #f6c5b7;
+    border-radius: 50%;
+    position: absolute;
+    transform: scale(0);
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+}
+.tablePanl ul li:hover:before{
+    transform: scale(1);
+}
+.tablePanl ul li:hover{
+    color:white;
+}
+.tablePanl ul li a,.tablePanl ul a:visited,
+.tablePanl ul a:hover,.tablePanl ul a:active
+{
+    text-decoration: none;
+    color:white;
+}

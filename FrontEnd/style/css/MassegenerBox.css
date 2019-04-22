@@ -1,0 +1,129 @@
+div.chatdiv{
+	padding-top: 10px;
+}
+div.clientDiv{
+	margin-left: -65px;
+	margin-top: -40px;
+	width: 400px;
+	height: 80px;
+}
+div.clientDetail{
+	margin-left: 110px;
+    margin-top: -70px;
+	top: 15px;
+}
+div.userlistdiv{
+	height: 550px;
+	width: 400px;	
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #f2f2f2;
+}
+hr.hrStyle{
+  border: 0; 
+  height: 0.5px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  margin-top: 5px;
+}
+h4.clientHeader{
+  margin-top: -48px;
+  margin-left: -60px;
+  width: 700px;
+  background-color: white;
+}
+div.ShowMessage{
+	resize:none;
+	margin-top: -20px;
+	margin-left: -60px;
+	margin-bottom: -16px;
+	height: 442px;
+	width: 700px;
+	border-radius: 0px 0px 0px 0px;
+	background-color: #e6e6e6;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+div.MessageDiv{
+	height: 550px;
+	width: 700px;
+}
+textarea.messageData{
+	resize:none;
+	height: 50px;
+	margin-left: -60px;
+	width: 700px;
+}
+img.img_position{
+	top: 10px;
+	margin-left: 10px;
+	width: 80px;
+	height: 80px;
+}
+a.clientAnchor{
+	text-decoration: none;
+}
+div.clientDiv:hover{
+	background-color:  #cccccc;
+}
+
+img.img_chat_position{
+	margin-left: 20px;
+	width: 35px;
+	height: 35px;
+}
+p.messagetext{
+	width: auto;
+    margin-left: 10px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+p.sendertext{
+	width: auto;
+	background-color: lightblue;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+h6.limited-text{
+    white-space: nowrap;
+    width: 230px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+i.Noti{
+	font-size: 11px;
+    padding: 2px 5px;
+    font-weight: bold;
+    background-color: #f25c27;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -30%;
+    right: 74%;
+    text-align: center;
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #ff3300; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
